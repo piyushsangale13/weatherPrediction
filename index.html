@@ -1,0 +1,77 @@
+
+<html>  
+<head>  
+    <title>Upload Image : jpg</title> 
+    <style>
+        body{
+            background-color: rgb(245, 214, 171);
+            /* background: url('WhatsApp Image 2022-11-26 at 14.36.58.jpg')no-repeat center center/cover; */
+        }
+        .choose_file{
+            background-color : rgb(236, 240, 242);
+            height: 300px;
+            width: 600px;
+            align-items: center;
+            margin : 30px auto;
+            border: 2px solid black;
+            border-radius: 50px  
+                
+        }
+
+        .choose_file input{
+            margin-top: 131px;
+            margin-left: 182px;
+            /* font-weight: bold; */
+            font-size: larger;
+            cursor: pointer;
+        }
+        /* .choose_file input #file-button{
+            background-color: rgb(54, 122, 122);
+        } */
+
+        .upload input{
+            margin:0% 47%;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        h1{
+            font-size: 100px;
+            color: black;
+            text-align: center;
+        }
+        #upload{
+            height: 50px;
+            width: 150px;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+        
+    </style> 
+
+
+    
+</head>  
+<body> 
+    <h1>Weather prediction ML model</h1> 
+    <form action = "/success" method = "post" enctype="multipart/form-data">  
+        <div class="choose_file">
+            <input  type="file" name="file">  
+        </div>
+        <div class =upload>
+        <input id="upload" type = "submit" value="Upload">  
+        </div>     
+    </form> 
+    
+    <header></header>
+
+
+    <!-- <form action="">
+        <div class="choose_file">
+        Choose File :
+        <input type="file" placeholder="Enter your name">
+        </div>    
+
+    </form> -->
+</body>
+<!-- <header>Suryansh(b21230) Piyush(b21222)</header>   -->
+</html>
